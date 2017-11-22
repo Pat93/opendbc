@@ -58,3 +58,32 @@ BO_ 641 NEW_MSG_4: 8 XXX
 
 BO_ 886 NEW_MSG_5: 8 XXX
  SG_ DashDimSwitchLevel : 7|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 884 NEW_MSG_6: 8 XXX
+ SG_ FrontLeft DoorOpen (CHK) : 24|1@0+ (1,0) [0|1] "" XXX
+ SG_ FrontRight DoorOpen (CHK) : 25|1@0+ (1,0) [0|1] "" XXX
+ SG_ RearRight DoorOpen (CHK) : 26|1@0+ (1,0) [0|1] "" XXX
+ SG_ RearLeft DoorOpen (CHK) : 27|1@0+ (1,0) [0|1] "" XXX
+ SG_ TrunkOpen (CHK) : 29|1@0+ (1,0) [0|1] "" XXX
+ SG_ AnyDoorOpen KeyIn (CHK) : 33|1@0+ (1,0) [0|1] "" XXX
+ SG_ FrontFog On (CHK) : 14|1@0+ (1,0) [0|1] "" XXX
+ SG_ RearFog On (CHK) : 15|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 885 NEW_MSG_7: 8 XXX
+ SG_ HeadLights On (CHK) : 63|1@0+ (1,0) [0|1] "" XXX
+ SG_ IgnitionOn (CHK) : 49|1@0+ (1,0) [0|1] "" XXX
+ SG_ HighBeams On (CHK) : 55|1@0+ (1,0) [0|1] "" XXX
+ SG_ DashDim Bright Sw On (CHK) : 31|1@0+ (1,0) [0|1] "" XXX
+ SG_ Parking Lights On (CHK) : 27|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 864 NEW_MSG_8: 8 XXX
+ SG_ CruiseControl Sys On (CHK) : 40|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 338 NEW_MSG_9: 8 XXX
+ SG_ HeadLights On (CHK) : 59|1@0+ (1,0) [0|1] "" XXX
+ SG_ ParkingLights On (CHK) : 58|1@0+ (1,0) [0|1] "" XXX
+ SG_ BrakePedal Pressed : 52|1@0+ (1,0) [0|1] "" XXX
+ SG_ KeyIn Ignition (CHK) : 4|1@0+ (1,0) [0|1] "" XXX
+ SG_ Ignition Accessory (CHK) : 5|1@0+ (1,0) [0|1] "" XXX
+ SG_ HighBeams On : 60|1@0+ (1,0) [0|1] "" XXX
+ SG_ Ignition FullOn (CHK) : 6|1@0+ (1,0) [0|1] "" XXX
