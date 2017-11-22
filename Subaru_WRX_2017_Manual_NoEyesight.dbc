@@ -81,9 +81,19 @@ BO_ 864 NEW_MSG_8: 8 XXX
 
 BO_ 338 NEW_MSG_9: 8 XXX
  SG_ HeadLights On (CHK) : 59|1@0+ (1,0) [0|1] "" XXX
- SG_ ParkingLights On (CHK) : 58|1@0+ (1,0) [0|1] "" XXX
  SG_ BrakePedal Pressed : 52|1@0+ (1,0) [0|1] "" XXX
  SG_ KeyIn Ignition (CHK) : 4|1@0+ (1,0) [0|1] "" XXX
  SG_ Ignition Accessory (CHK) : 5|1@0+ (1,0) [0|1] "" XXX
  SG_ HighBeams On : 60|1@0+ (1,0) [0|1] "" XXX
  SG_ Ignition FullOn (CHK) : 6|1@0+ (1,0) [0|1] "" XXX
+ SG_ ParkingBrake On (CHK) : 51|1@0+ (1,0) [0|1] "" XXX
+ SG_ ParkingLights On (CHK) : 58|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 209 NEW_MSG_10: 8 XXX
+ SG_ VehicleSpeed KPH? (CHK) : 0|16@1+ (0.05625,0) [0|140] "" XXX
+
+BO_ 212 NEW_MSG_11: 8 XXX
+ SG_ RearRight Wheel Speed KPH? (CHK) : 48|16@1+ (0.05625,0) [0|140] "" XXX
+ SG_ FrontLeft Wheel Speed KPH? (CHK) : 0|16@1+ (0.05625,0) [0|140] "" XXX
+ SG_ FrontRight Wheel Speed KPH? (CHK) : 16|16@1+ (0.05625,0) [0|140] "" XXX
+ SG_ RearLeft Wheel Speed KPH? (CHK) : 32|16@1+ (0.05625,0) [0|140] "" XXX
