@@ -33,4 +33,11 @@ NS_ :
 
 BS_:
 
-BU_:
+BU_: XXX
+
+
+BO_ 2 NEW_MSG_1: 8 XXX
+ SG_ SteeringAngle : 7|16@0- (0.1,0) [-600|600] "" XXX
+
+BO_ 320 NEW_MSG_2: 8 XXX
+ SG_ ThrottlePosition : 7|8@0+ (1,0) [0|255] "Percent" XXX
