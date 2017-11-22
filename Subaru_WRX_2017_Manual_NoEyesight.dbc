@@ -41,3 +41,20 @@ BO_ 2 NEW_MSG_1: 8 XXX
 
 BO_ 320 NEW_MSG_2: 8 XXX
  SG_ ThrottlePosition : 7|8@0+ (1,0) [0|255] "Percent" XXX
+
+BO_ 340 NEW_MSG_3: 8 XXX
+ SG_ KeyInIgnition : 4|1@0+ (1,0) [0|1] "" XXX
+ SG_ BrakePedalPressed : 50|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 641 NEW_MSG_4: 8 XXX
+ SG_ A/C On State (CHK) : 12|1@0+ (1,0) [0|1] "" XXX
+ SG_ IsHVACFreshAir (CHK) : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ IsHVACRecircAir (CHK) : 14|1@0+ (1,0) [0|1] "" XXX
+ SG_ RearDefrostActive (CHK) : 13|1@0+ (1,0) [0|1] "" XXX
+ SG_ FrontDefrost (CHK) : 11|1@0+ (1,0) [0|1] "" XXX
+ SG_ HVACTempSelect (CHK) : 23|6@0+ (1,56) [60|90] "" XXX
+ SG_ FanSpeed (CHK) : 7|3@0+ (1,0) [0|18] "" XXX
+ SG_ BlowerPosition (CHK) : 4|3@0+ (1,0) [0|18] "" XXX
+
+BO_ 886 NEW_MSG_5: 8 XXX
+ SG_ DashDimSwitchLevel : 7|8@0+ (1,0) [0|255] "" XXX
