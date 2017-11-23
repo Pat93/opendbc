@@ -40,8 +40,9 @@ BO_ 2 STEERING: 8 XXX
  SG_ SteeringAngle : 7|16@0- (0.1,0) [-600|600] "" XXX
 
 BO_ 320 NEW_MSG_2: 8 XXX
- SG_ ThrottlePosition : 7|8@0+ (1,0) [0|255] "Percent" XXX
  SG_ IsThrottleAtZero : 30|1@0+ (1,0) [0|1] "" XXX
+ SG_ ThrottlePosition2 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ ThrottlePosition : 7|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 340 NEW_MSG_3: 8 XXX
  SG_ KeyInIgnition : 4|1@0+ (1,0) [0|1] "" XXX
@@ -104,10 +105,10 @@ BO_ 212 INDIVIDUAL_WHEEL_SPEED: 8 XXX
 BO_ 321 NEW_MSG_1: 8 XXX
  SG_ GearPosition : 48|3@1+ (1,0) [0|7] "" XXX
  SG_ IsThrottleAt0 : 47|1@0+ (1,0) [0|1] "" XXX
- SG_ RPMMaybe : 16|16@1+ (0.1,0) [0|65535] "" XXX
+ SG_ RPMMaybe : 16|16@1+ (0.1,0) [-200|65535] "" XXX
 
 BO_ 208 SteeringAngleSensor: 8 XXX
- SG_ NEW_SIGNAL_1 : 0|16@1+ (0.1,0) [-500|500] "" XXX
+ SG_ SteeringAngle : 0|16@1+ (0.1,0) [-500|500] "" XXX
 
 BO_ 211 NEW_MSG_4: 8 XXX
  SG_ TCSOffLight : 11|1@0+ (1,0) [0|1] "" XXX
@@ -118,3 +119,7 @@ BO_ 211 NEW_MSG_4: 8 XXX
 BO_ 642 NEW_MSG_5: 8 XXX
  SG_ LeftTurnSignal : 44|1@0+ (1,0) [0|1] "" XXX
  SG_ RightTurnSignal : 45|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 210 NEW_MSG_11: 8 XXX
+
+BO_ 324 NEW_MSG_12: 8 XXX
