@@ -41,6 +41,7 @@ BO_ 2 STEERING: 8 XXX
 
 BO_ 320 NEW_MSG_2: 8 XXX
  SG_ ThrottlePosition : 7|8@0+ (1,0) [0|255] "Percent" XXX
+ SG_ IsThrottleAtZero : 30|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 340 NEW_MSG_3: 8 XXX
  SG_ KeyInIgnition : 4|1@0+ (1,0) [0|1] "" XXX
@@ -48,16 +49,17 @@ BO_ 340 NEW_MSG_3: 8 XXX
 
 BO_ 641 HVAC_MFD: 8 XXX
  SG_ BlowerPosition : 4|3@0+ (1,0) [0|18] "" XXX
- SG_ FrontDefrost : 11|1@0+ (1,0) [0|1] "" XXX
  SG_ RearDefrostActive : 13|1@0+ (1,0) [0|1] "" XXX
  SG_ IsHVACRecircAir : 14|1@0+ (1,0) [0|1] "" XXX
  SG_ IsHVACFreshAir : 15|1@0+ (1,0) [0|1] "" XXX
  SG_ FanSpeed : 7|3@0+ (1,0) [0|18] "" XXX
  SG_ ACOnState : 12|1@0+ (1,0) [0|1] "" XXX
  SG_ HVACTempSelect : 23|6@0+ (1,56) [60|90] "" XXX
+ SG_ FullAuto : 11|1@0+ (1,0) [0|1] "" XXX
+ SG_ PartialAuto : 10|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 886 DASH_DIM_LEVEL: 8 XXX
- SG_ DashDimSwitchLevel : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ DashDimSwitchLevel : 7|8@0+ (0.028,0) [0|255] "" XXX
 
 BO_ 884 NEW_MSG_6: 8 XXX
  SG_ RearFogOn : 15|1@0+ (1,0) [0|1] "" XXX
@@ -67,7 +69,7 @@ BO_ 884 NEW_MSG_6: 8 XXX
  SG_ RearRightDoorOpen : 26|1@0+ (1,0) [0|1] "" XXX
  SG_ RearLeftDoorOpen : 27|1@0+ (1,0) [0|1] "" XXX
  SG_ TrunkOpen : 29|1@0+ (1,0) [0|1] "" XXX
- SG_ AnyDoorOpenKeyIn : 33|1@0+ (1,0) [0|1] "" XXX
+ SG_ AnyDoorOpenKeyInChime : 33|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 885 NEW_MSG_7: 8 XXX
  SG_ HeadLightsOn : 63|1@0+ (1,0) [0|1] "" XXX
@@ -77,7 +79,7 @@ BO_ 885 NEW_MSG_7: 8 XXX
  SG_ ParkingLightsOn : 27|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 864 NEW_MSG_8: 8 XXX
- SG_ CruiseControlSysOn : 40|1@0+ (1,0) [0|1] "" XXX
+ SG_ CruiseControlSysOn : 44|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 338 NEW_MSG_9: 8 XXX
  SG_ KeyInIgnition : 4|1@0+ (1,0) [0|1] "" XXX
@@ -101,3 +103,18 @@ BO_ 212 INDIVIDUAL_WHEEL_SPEED: 8 XXX
 
 BO_ 321 NEW_MSG_1: 8 XXX
  SG_ GearPosition : 48|3@1+ (1,0) [0|7] "" XXX
+ SG_ IsThrottleAt0 : 47|1@0+ (1,0) [0|1] "" XXX
+ SG_ RPMMaybe : 16|16@1+ (0.1,0) [0|65535] "" XXX
+
+BO_ 208 SteeringAngleSensor: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|16@1+ (0.1,0) [-500|500] "" XXX
+
+BO_ 211 NEW_MSG_4: 8 XXX
+ SG_ TCSOffLight : 11|1@0+ (1,0) [0|1] "" XXX
+ SG_ TracModeLight : 3|1@0+ (1,0) [0|1] "" XXX
+ SG_ StabilityContState : 24|1@0+ (1,0) [0|1] "" XXX
+ SG_ IsBrakePedalPressed : 21|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 642 NEW_MSG_5: 8 XXX
+ SG_ LeftTurnSignal : 44|1@0+ (1,0) [0|1] "" XXX
+ SG_ RightTurnSignal : 45|1@0+ (1,0) [0|1] "" XXX
