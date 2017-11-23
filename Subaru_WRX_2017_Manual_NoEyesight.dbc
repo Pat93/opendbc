@@ -36,7 +36,7 @@ BS_:
 BU_: XXX
 
 
-BO_ 2 NEW_MSG_1: 8 XXX
+BO_ 2 STEERING: 8 XXX
  SG_ SteeringAngle : 7|16@0- (0.1,0) [-600|600] "" XXX
 
 BO_ 320 NEW_MSG_2: 8 XXX
@@ -46,17 +46,17 @@ BO_ 340 NEW_MSG_3: 8 XXX
  SG_ KeyInIgnition : 4|1@0+ (1,0) [0|1] "" XXX
  SG_ BrakePedalPressed : 50|1@0+ (1,0) [0|1] "" XXX
 
-BO_ 641 NEW_MSG_4: 8 XXX
+BO_ 641 HVAC_MFD: 8 XXX
  SG_ BlowerPosition : 4|3@0+ (1,0) [0|18] "" XXX
  SG_ FrontDefrost : 11|1@0+ (1,0) [0|1] "" XXX
  SG_ RearDefrostActive : 13|1@0+ (1,0) [0|1] "" XXX
  SG_ IsHVACRecircAir : 14|1@0+ (1,0) [0|1] "" XXX
  SG_ IsHVACFreshAir : 15|1@0+ (1,0) [0|1] "" XXX
- SG_ HVACTempSelect : 23|6@0+ (1,56) [60|90] "" XXX
  SG_ FanSpeed : 7|3@0+ (1,0) [0|18] "" XXX
  SG_ ACOnState : 12|1@0+ (1,0) [0|1] "" XXX
+ SG_ HVACTempSelect : 23|6@0+ (1,56) [60|90] "" XXX
 
-BO_ 886 NEW_MSG_5: 8 XXX
+BO_ 886 DASH_DIM_LEVEL: 8 XXX
  SG_ DashDimSwitchLevel : 7|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 884 NEW_MSG_6: 8 XXX
@@ -93,7 +93,7 @@ BO_ 209 NEW_MSG_10: 8 XXX
  SG_ VehicleSpeedKPH : 0|16@1+ (0.05625,0) [0|140] "" XXX
  SG_ BrakePedalPressure : 23|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 212 NEW_MSG_11: 8 XXX
+BO_ 212 INDIVIDUAL_WHEEL_SPEED: 8 XXX
  SG_ FrontLeftWheelSpeedKPH : 0|16@1+ (0.05625,0) [0|140] "" XXX
  SG_ RearRightWheelSpeedKPH : 48|16@1+ (0.05625,0) [0|140] "" XXX
  SG_ RearLeftWheelSpeedKPH : 32|16@1+ (0.05625,0) [0|140] "" XXX
