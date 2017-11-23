@@ -47,53 +47,54 @@ BO_ 340 NEW_MSG_3: 8 XXX
  SG_ BrakePedalPressed : 50|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 641 NEW_MSG_4: 8 XXX
- SG_ A/C On State (CHK) : 12|1@0+ (1,0) [0|1] "" XXX
- SG_ IsHVACFreshAir (CHK) : 15|1@0+ (1,0) [0|1] "" XXX
- SG_ IsHVACRecircAir (CHK) : 14|1@0+ (1,0) [0|1] "" XXX
- SG_ RearDefrostActive (CHK) : 13|1@0+ (1,0) [0|1] "" XXX
- SG_ FrontDefrost (CHK) : 11|1@0+ (1,0) [0|1] "" XXX
- SG_ HVACTempSelect (CHK) : 23|6@0+ (1,56) [60|90] "" XXX
- SG_ FanSpeed (CHK) : 7|3@0+ (1,0) [0|18] "" XXX
- SG_ BlowerPosition (CHK) : 4|3@0+ (1,0) [0|18] "" XXX
+ SG_ BlowerPosition : 4|3@0+ (1,0) [0|18] "" XXX
+ SG_ FrontDefrost : 11|1@0+ (1,0) [0|1] "" XXX
+ SG_ RearDefrostActive : 13|1@0+ (1,0) [0|1] "" XXX
+ SG_ IsHVACRecircAir : 14|1@0+ (1,0) [0|1] "" XXX
+ SG_ IsHVACFreshAir : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ HVACTempSelect : 23|6@0+ (1,56) [60|90] "" XXX
+ SG_ FanSpeed : 7|3@0+ (1,0) [0|18] "" XXX
+ SG_ ACOnState : 12|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 886 NEW_MSG_5: 8 XXX
  SG_ DashDimSwitchLevel : 7|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 884 NEW_MSG_6: 8 XXX
- SG_ FrontLeft DoorOpen (CHK) : 24|1@0+ (1,0) [0|1] "" XXX
- SG_ FrontRight DoorOpen (CHK) : 25|1@0+ (1,0) [0|1] "" XXX
- SG_ RearRight DoorOpen (CHK) : 26|1@0+ (1,0) [0|1] "" XXX
- SG_ RearLeft DoorOpen (CHK) : 27|1@0+ (1,0) [0|1] "" XXX
- SG_ TrunkOpen (CHK) : 29|1@0+ (1,0) [0|1] "" XXX
- SG_ AnyDoorOpen KeyIn (CHK) : 33|1@0+ (1,0) [0|1] "" XXX
- SG_ FrontFog On (CHK) : 14|1@0+ (1,0) [0|1] "" XXX
- SG_ RearFog On (CHK) : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ RearFogOn : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ FrontFogOn : 14|1@0+ (1,0) [0|1] "" XXX
+ SG_ FrontLeftDoorOpen : 24|1@0+ (1,0) [0|1] "" XXX
+ SG_ FrontRightDoorOpen : 25|1@0+ (1,0) [0|1] "" XXX
+ SG_ RearRightDoorOpen : 26|1@0+ (1,0) [0|1] "" XXX
+ SG_ RearLeftDoorOpen : 27|1@0+ (1,0) [0|1] "" XXX
+ SG_ TrunkOpen : 29|1@0+ (1,0) [0|1] "" XXX
+ SG_ AnyDoorOpenKeyIn : 33|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 885 NEW_MSG_7: 8 XXX
- SG_ HeadLights On (CHK) : 63|1@0+ (1,0) [0|1] "" XXX
- SG_ IgnitionOn (CHK) : 49|1@0+ (1,0) [0|1] "" XXX
- SG_ HighBeams On (CHK) : 55|1@0+ (1,0) [0|1] "" XXX
- SG_ DashDim Bright Sw On (CHK) : 31|1@0+ (1,0) [0|1] "" XXX
- SG_ Parking Lights On (CHK) : 27|1@0+ (1,0) [0|1] "" XXX
+ SG_ HeadLightsOn : 63|1@0+ (1,0) [0|1] "" XXX
+ SG_ HighBeamsOn : 55|1@0+ (1,0) [0|1] "" XXX
+ SG_ IgnitionOn : 49|1@0+ (1,0) [0|1] "" XXX
+ SG_ DashDimBrightSwOn : 31|1@0+ (1,0) [0|1] "" XXX
+ SG_ ParkingLightsOn : 27|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 864 NEW_MSG_8: 8 XXX
- SG_ CruiseControl Sys On (CHK) : 40|1@0+ (1,0) [0|1] "" XXX
+ SG_ CruiseControlSysOn : 40|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 338 NEW_MSG_9: 8 XXX
- SG_ HeadLights On (CHK) : 59|1@0+ (1,0) [0|1] "" XXX
- SG_ BrakePedal Pressed : 52|1@0+ (1,0) [0|1] "" XXX
- SG_ KeyIn Ignition (CHK) : 4|1@0+ (1,0) [0|1] "" XXX
- SG_ Ignition Accessory (CHK) : 5|1@0+ (1,0) [0|1] "" XXX
- SG_ HighBeams On : 60|1@0+ (1,0) [0|1] "" XXX
- SG_ Ignition FullOn (CHK) : 6|1@0+ (1,0) [0|1] "" XXX
- SG_ ParkingBrake On (CHK) : 51|1@0+ (1,0) [0|1] "" XXX
- SG_ ParkingLights On (CHK) : 58|1@0+ (1,0) [0|1] "" XXX
+ SG_ KeyInIgnition : 4|1@0+ (1,0) [0|1] "" XXX
+ SG_ IgnitionAccessory : 5|1@0+ (1,0) [0|1] "" XXX
+ SG_ IgnitionFullOn : 6|1@0+ (1,0) [0|1] "" XXX
+ SG_ ParkingBrakeOn : 51|1@0+ (1,0) [0|1] "" XXX
+ SG_ BrakePedalPressed : 52|1@0+ (1,0) [0|1] "" XXX
+ SG_ ParkingLightsOn : 58|1@0+ (1,0) [0|1] "" XXX
+ SG_ HeadLightsOn : 59|1@0+ (1,0) [0|1] "" XXX
+ SG_ HighBeamsOn : 60|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 209 NEW_MSG_10: 8 XXX
- SG_ VehicleSpeed KPH? (CHK) : 0|16@1+ (0.05625,0) [0|140] "" XXX
+ SG_ VehicleSpeedKPH : 0|16@1+ (0.05625,0) [0|140] "" XXX
+ SG_ BrakePedalPressure : 23|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 212 NEW_MSG_11: 8 XXX
- SG_ RearRight Wheel Speed KPH? (CHK) : 48|16@1+ (0.05625,0) [0|140] "" XXX
- SG_ FrontLeft Wheel Speed KPH? (CHK) : 0|16@1+ (0.05625,0) [0|140] "" XXX
- SG_ FrontRight Wheel Speed KPH? (CHK) : 16|16@1+ (0.05625,0) [0|140] "" XXX
- SG_ RearLeft Wheel Speed KPH? (CHK) : 32|16@1+ (0.05625,0) [0|140] "" XXX
+ SG_ FrontLeftWheelSpeedKPH : 0|16@1+ (0.05625,0) [0|140] "" XXX
+ SG_ RearRightWheelSpeedKPH : 48|16@1+ (0.05625,0) [0|140] "" XXX
+ SG_ RearLeftWheelSpeedKPH : 32|16@1+ (0.05625,0) [0|140] "" XXX
+ SG_ FrontRightWheelSpeedKPH : 16|16@1+ (0.05625,0) [0|140] "" XXX
