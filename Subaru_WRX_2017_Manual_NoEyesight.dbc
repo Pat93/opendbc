@@ -49,18 +49,18 @@ BO_ 340 NEW_MSG_3: 8 XXX
  SG_ BrakePedalPressed : 50|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 641 HVAC_MFD: 8 XXX
- SG_ BlowerPosition : 4|3@0+ (1,0) [0|18] "" XXX
  SG_ RearDefrostActive : 13|1@0+ (1,0) [0|1] "" XXX
  SG_ IsHVACRecircAir : 14|1@0+ (1,0) [0|1] "" XXX
  SG_ IsHVACFreshAir : 15|1@0+ (1,0) [0|1] "" XXX
  SG_ FanSpeed : 7|3@0+ (1,0) [0|18] "" XXX
  SG_ ACOnState : 12|1@0+ (1,0) [0|1] "" XXX
- SG_ HVACTempSelect : 23|6@0+ (1,56) [60|90] "" XXX
  SG_ FullAuto : 11|1@0+ (1,0) [0|1] "" XXX
  SG_ PartialAuto : 10|1@0+ (1,0) [0|1] "" XXX
+ SG_ HVACTempSelect : 23|6@0+ (1,56) [60|90] "" XXX
+ SG_ BlowerPosition : 4|3@0+ (1,0) [0|18] "" XXX
 
 BO_ 886 DASH_DIM_LEVEL: 8 XXX
- SG_ DashDimSwitchLevel : 7|8@0+ (0.028,0) [0|255] "" XXX
+ SG_ DashDimLvl : 7|8@0+ (0.028,0) [0|255] "" XXX
 
 BO_ 884 NEW_MSG_6: 8 XXX
  SG_ RearFogOn : 15|1@0+ (1,0) [0|1] "" XXX
@@ -99,10 +99,10 @@ BO_ 209 NEW_MSG_10: 8 XXX
  SG_ BrakePedalPressure : 23|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 212 INDIVIDUAL_WHEEL_SPEED: 8 XXX
- SG_ FrontLeftWheelSpeedKPH : 0|16@1+ (0.05625,0) [0|140] "" XXX
  SG_ RearRightWheelSpeedKPH : 48|16@1+ (0.05625,0) [0|140] "" XXX
  SG_ RearLeftWheelSpeedKPH : 32|16@1+ (0.05625,0) [0|140] "" XXX
  SG_ FrontRightWheelSpeedKPH : 16|16@1+ (0.05625,0) [0|140] "" XXX
+ SG_ FrontLeftWheelSpeedKPH : 0|16@1+ (0.05625,0) [0|140] "" XXX
 
 BO_ 321 NEW_MSG_1: 8 XXX
  SG_ GearPosition : 48|3@1+ (1,0) [0|7] "" XXX
@@ -128,3 +128,9 @@ BO_ 210 NEW_MSG_11: 8 XXX
 BO_ 324 NEW_MSG_12: 8 XXX
 
 BO_ 977 NEW_MSG_13: 8 XXX
+
+
+
+
+CM_ SG_ 641 HVACTempSelect "Temp mostly correct except HI and LO";
+CM_ SG_ 886 DashDimLvl "Factor incorrect";
