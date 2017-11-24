@@ -81,6 +81,8 @@ BO_ 885 NEW_MSG_7: 8 XXX
 
 BO_ 864 NEW_MSG_8: 8 XXX
  SG_ CruiseControlSysOn : 44|1@0+ (1,0) [0|1] "" XXX
+ SG_ CruiseControlSysSetOn : 45|1@0+ (1,0) [0|1] "" XXX
+ SG_ CruiseControlSysSetSpeed : 56|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 338 NEW_MSG_9: 8 XXX
  SG_ KeyInIgnition : 4|1@0+ (1,0) [0|1] "" XXX
@@ -105,7 +107,7 @@ BO_ 212 INDIVIDUAL_WHEEL_SPEED: 8 XXX
 BO_ 321 NEW_MSG_1: 8 XXX
  SG_ GearPosition : 48|3@1+ (1,0) [0|7] "" XXX
  SG_ IsThrottleAt0 : 47|1@0+ (1,0) [0|1] "" XXX
- SG_ RPMMaybe : 16|16@1+ (0.1,0) [-200|65535] "" XXX
+ SG_ MAPMaybe : 16|16@1+ (0.1,0) [-200|65535] "" XXX
 
 BO_ 208 SteeringAngleSensor: 8 XXX
  SG_ SteeringAngle : 0|16@1+ (0.1,0) [-500|500] "" XXX
