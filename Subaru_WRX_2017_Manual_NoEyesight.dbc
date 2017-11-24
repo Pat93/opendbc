@@ -134,3 +134,4 @@ BO_ 977 NEW_MSG_13: 8 XXX
 
 CM_ SG_ 641 HVACTempSelect "Temp mostly correct except HI and LO";
 CM_ SG_ 886 DashDimLvl "Factor incorrect";
+CM_ SG_ 208 SteeringAngle "Scaling incorrect";
