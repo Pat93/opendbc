@@ -117,6 +117,7 @@ BO_ 211 NEW_MSG_4: 8 XXX
  SG_ TracModeLight : 3|1@0+ (1,0) [0|1] "" XXX
  SG_ StabilityContState : 24|1@0+ (1,0) [0|1] "" XXX
  SG_ IsBrakePedalPressed : 21|1@0+ (1,0) [0|1] "" XXX
+ SG_ TCSActiveLightMaybe : 19|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 642 NEW_MSG_5: 8 XXX
  SG_ LeftTurnSignal : 44|1@0+ (1,0) [0|1] "" XXX
@@ -125,3 +126,5 @@ BO_ 642 NEW_MSG_5: 8 XXX
 BO_ 210 NEW_MSG_11: 8 XXX
 
 BO_ 324 NEW_MSG_12: 8 XXX
+
+BO_ 977 NEW_MSG_13: 8 XXX
