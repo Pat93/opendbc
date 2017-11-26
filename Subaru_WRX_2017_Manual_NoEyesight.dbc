@@ -111,6 +111,7 @@ BO_ 321 NEW_MSG_1: 8 XXX
 
 BO_ 208 SteeringAngleSensor: 8 XXX
  SG_ SteeringAngle : 0|16@1+ (0.1,0) [-500|500] "" XXX
+ SG_ State : 63|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 211 NEW_MSG_4: 8 XXX
  SG_ TCSOffLight : 11|1@0+ (1,0) [0|1] "" XXX
@@ -135,3 +136,4 @@ BO_ 977 NEW_MSG_13: 8 XXX
 CM_ SG_ 641 HVACTempSelect "Temp mostly correct except HI and LO";
 CM_ SG_ 886 DashDimLvl "Factor incorrect";
 CM_ SG_ 208 SteeringAngle "Scaling incorrect";
+CM_ SG_ 208 State "FF is off and 00 is on maybe";
